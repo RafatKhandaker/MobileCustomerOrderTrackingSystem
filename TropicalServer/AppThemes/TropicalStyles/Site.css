@@ -96,6 +96,7 @@ div.menu ul li a:active
  */
 .main
 {
+    width: 99%;
     padding: 5px 5px 5px 5px;
     height:80%;
     overflow:auto;     

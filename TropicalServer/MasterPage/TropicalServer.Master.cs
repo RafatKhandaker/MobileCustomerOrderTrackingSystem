@@ -12,11 +12,6 @@ namespace TropicalServer.MasterPage
         protected void Page_Load(object sender, EventArgs e)
         {
             pre_init();
-            
-            if (Request.Cookies["userName"] == null || Request.Cookies["passWord"] == null)
-            {
-                init_params();
-            }
         }
 
         private void pre_init() {
@@ -34,7 +29,6 @@ namespace TropicalServer.MasterPage
 
         private void init_params()
         {
-           // Server.Transfer("~/UI/Login.aspx");
         }
    
 

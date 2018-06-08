@@ -9,9 +9,7 @@
           AutoGenerateColumns="False"
           BorderColor="White" BorderStyle="Ridge" CellSpacing="1" CellPadding="3" 
           GridLines="None" BackColor="White" BorderWidth="2px"> 
-
         <AlternatingRowStyle BackColor="#EAEFF2" ForeColor="Black" />
-
         <Columns>
            <asp:BoundField DataField="OrderTrackingNumber" ControlStyle-Font-Bold="true" HeaderText="Tracking #" 
                 InsertVisible="False" ReadOnly="True" SortExpression="ItemID">
@@ -31,12 +29,16 @@
                 SortExpression="ItemWeights" />
              <asp:TemplateField HeaderText="Available Actions" HeaderStyle-CssClass="white">
                 <ItemTemplate>
-                    <asp:Button ID="viewBtn" CommandArgument='btnView' runat="server" Text="View" OnClick="viewBtn_Click" />
-                    <asp:Button ID="editBtn" CommandArgument='btnEdit' runat="server" Text="Edit" OnClick="editBtn_Click" />
-                    <asp:Button ID="deleteBtn" CommandArgument='btnDelete' runat="server" Text="Delete" OnClick="deleteBtn_Click" />
+                    <asp:Button ID="viewBtn" CommandArgument='View' runat="server" Text="View" OnClick="viewBtn_Click" />
+                    <asp:Button ID="editBtn" CommandArgument='Edit' runat="server" Text="Edit" OnClick="editBtn_Click"/>
+                    <asp:Button ID="deleteBtn" CommandArgument='Delete' runat="server" Text="Delete" OnClick="deleteBtn_Click" />
                 </ItemTemplate>
-
-<HeaderStyle CssClass="white"></HeaderStyle>
+            </asp:TemplateField>
+            <asp:TemplateField HeaderText="Available Actions" HeaderStyle-CssClass="white">
+                 <EditItemTemplate>
+                     <asp:Button ID="updateBtn" CommandArgument='Update' runat="server" Text="Update" />
+                     <asp:Button ID="cancelBtn" CommandArgument='Cancel' runat="server" Text="Cancel" />
+                 </EditItemTemplate>
             </asp:TemplateField>
         </Columns>
         <HeaderStyle BackColor="#3890A4" />

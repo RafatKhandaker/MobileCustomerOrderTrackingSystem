@@ -13,6 +13,11 @@ namespace TropicalServer.UI
 
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (Request.Cookies["userName"] == null || Request.Cookies["passWord"] == null)
+            {
+                Server.Transfer("~/UI/Login.aspx");
+            }
+
             init_param();    
         }
 
@@ -20,6 +25,8 @@ namespace TropicalServer.UI
         {
             OrdersTable.DataSource = ( new OrdersBLL().GetCustomerOrders() );
             OrdersTable.DataBind();
+            var x = OrdersTable.Columns;
+            OrdersTable.Columns[8].Visible = false; 
         }
     
         protected void prevBtn_Click(object sender, EventArgs e)
@@ -44,14 +51,14 @@ namespace TropicalServer.UI
 
         }
 
-        protected void editBtn_Click(object sender, EventArgs e)
-        {
-
-        }
-
         protected void deleteBtn_Click(object sender, EventArgs e)
         {
+            OrdersTable.DeleteRow(OrdersTable.SelectedIndex);
+        }
 
+        protected void editBtn_Click(object sender, EventArgs e)
+        {
+            OrdersTable.Columns[8].Visible = true;
         }
     }
 }

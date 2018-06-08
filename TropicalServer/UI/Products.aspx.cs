@@ -12,6 +12,11 @@ namespace TropicalServer.UI
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (Request.Cookies["userName"] == null || Request.Cookies["passWord"] == null)
+            {
+                Server.Transfer("~/UI/Login.aspx");
+            }
+
             init_params();
         }
 
