@@ -60,5 +60,25 @@ namespace TropicalServer.UI
         {
             OrdersTable.Columns[8].Visible = true;
         }
+
+        protected void fOrderDate_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void fCustomerID_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void fCustomerName_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void fSalesManager_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -13,7 +13,7 @@
 {
     width: 90%;
     background-color: #FFFFFF;
-    margin-top: 20px;
+    margin-top: 5px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -81,4 +81,22 @@
 
 a:link, a:visited {
     color: #FFFFFF;
+}
+
+.filter {
+    width: 90%;
+    height: 30px;
+    background-color: #3a4f63;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    color: white;
+    padding-top: 5px;
+}
+
+.o-filter {
+    width: 120px;
+    padding-right: 100px;
 }

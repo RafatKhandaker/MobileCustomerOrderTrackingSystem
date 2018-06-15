@@ -40,3 +40,10 @@ E:\TropicalServerApp\TropicalServer.BLL\bin\Debug\TropicalServer.DAL.pdb
 E:\TropicalServerApp\TropicalServer.BLL\obj\Debug\TropicalServer.BLL.csprojResolveAssemblyReference.cache
 E:\TropicalServerApp\TropicalServer.BLL\obj\Debug\TropicalServer.BLL.dll
 E:\TropicalServerApp\TropicalServer.BLL\obj\Debug\TropicalServer.BLL.pdb
+C:\Users\SysAdmin\GitProjects\MobileCustomerOrderTrackingSystem\TropicalServer.BLL\bin\Debug\TropicalServer.BLL.dll
+C:\Users\SysAdmin\GitProjects\MobileCustomerOrderTrackingSystem\TropicalServer.BLL\bin\Debug\TropicalServer.BLL.pdb
+C:\Users\SysAdmin\GitProjects\MobileCustomerOrderTrackingSystem\TropicalServer.BLL\bin\Debug\TropicalServer.DAL.dll
+C:\Users\SysAdmin\GitProjects\MobileCustomerOrderTrackingSystem\TropicalServer.BLL\bin\Debug\TropicalServer.DAL.pdb
+C:\Users\SysAdmin\GitProjects\MobileCustomerOrderTrackingSystem\TropicalServer.BLL\obj\Debug\TropicalServer.BLL.csprojResolveAssemblyReference.cache
+C:\Users\SysAdmin\GitProjects\MobileCustomerOrderTrackingSystem\TropicalServer.BLL\obj\Debug\TropicalServer.BLL.dll
+C:\Users\SysAdmin\GitProjects\MobileCustomerOrderTrackingSystem\TropicalServer.BLL\obj\Debug\TropicalServer.BLL.pdb

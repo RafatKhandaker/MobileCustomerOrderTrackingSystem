@@ -13,6 +13,42 @@ namespace TropicalServer.UI {
     public partial class Orders {
         
         /// <summary>
+        /// fOrderDate control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList fOrderDate;
+        
+        /// <summary>
+        /// fCustomerID control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList fCustomerID;
+        
+        /// <summary>
+        /// fCustomerName control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList fCustomerName;
+        
+        /// <summary>
+        /// fSalesManager control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList fSalesManager;
+        
+        /// <summary>
         /// OrdersTable control.
         /// </summary>
         /// <remarks>

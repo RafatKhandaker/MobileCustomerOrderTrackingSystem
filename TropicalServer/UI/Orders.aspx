@@ -3,7 +3,14 @@
     <link href="../AppThemes/TropicalStyles/Orders.css" rel="stylesheet" />
 </asp:Content>
  <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
-
+   <div id="filterActions" class="filter">
+       <p>
+           |   Order date:   <asp:DropDownList ID="fOrderDate" CssClass="o-filter" runat="server" OnSelectedIndexChanged="fOrderDate_SelectedIndexChanged"/>   |  
+           Customer ID:   <asp:DropDownList ID="fCustomerID" CssClass="o-filter" runat="server" OnSelectedIndexChanged="fCustomerID_SelectedIndexChanged"/>   |
+           Customer Name:   <asp:DropDownList ID="fCustomerName" CssClass="o-filter" runat="server" OnSelectedIndexChanged="fCustomerName_SelectedIndexChanged"/>   |
+           Sales Manager:   <asp:DropDownList ID="fSalesManager" CssClass="o-filter" runat="server" OnSelectedIndexChanged="fSalesManager_SelectedIndexChanged"/>   |
+      </p>
+   </div>
    <asp:gridview id="OrdersTable" emptydatatext="No data available." 
           runat="server" AllowSorting="True" EnableViewState="True" CssClass="Grid" 
           AutoGenerateColumns="False"

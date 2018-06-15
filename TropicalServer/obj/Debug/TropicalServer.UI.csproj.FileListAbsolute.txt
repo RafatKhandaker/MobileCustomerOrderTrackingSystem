@@ -129,3 +129,13 @@ E:\TropicalServerApp\TropicalServer\bin\TropicalServer.DAL.pdb
 E:\TropicalServerApp\TropicalServer\obj\Debug\TropicalServer.UI.csprojResolveAssemblyReference.cache
 E:\TropicalServerApp\TropicalServer\obj\Debug\TropicalServer.dll
 E:\TropicalServerApp\TropicalServer\obj\Debug\TropicalServer.pdb
+C:\Users\SysAdmin\GitProjects\MobileCustomerOrderTrackingSystem\TropicalServer\bin\TropicalServer.dll.config
+C:\Users\SysAdmin\GitProjects\MobileCustomerOrderTrackingSystem\TropicalServer\bin\TropicalServer.dll
+C:\Users\SysAdmin\GitProjects\MobileCustomerOrderTrackingSystem\TropicalServer\bin\TropicalServer.pdb
+C:\Users\SysAdmin\GitProjects\MobileCustomerOrderTrackingSystem\TropicalServer\bin\TropicalServer.BLL.dll
+C:\Users\SysAdmin\GitProjects\MobileCustomerOrderTrackingSystem\TropicalServer\bin\TropicalServer.DAL.dll
+C:\Users\SysAdmin\GitProjects\MobileCustomerOrderTrackingSystem\TropicalServer\bin\TropicalServer.BLL.pdb
+C:\Users\SysAdmin\GitProjects\MobileCustomerOrderTrackingSystem\TropicalServer\bin\TropicalServer.DAL.pdb
+C:\Users\SysAdmin\GitProjects\MobileCustomerOrderTrackingSystem\TropicalServer\obj\Debug\TropicalServer.UI.csprojResolveAssemblyReference.cache
+C:\Users\SysAdmin\GitProjects\MobileCustomerOrderTrackingSystem\TropicalServer\obj\Debug\TropicalServer.dll
+C:\Users\SysAdmin\GitProjects\MobileCustomerOrderTrackingSystem\TropicalServer\obj\Debug\TropicalServer.pdb
